@@ -28,10 +28,13 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile('./README.md', readMeData) {
-    const readMeFile = generatePage(readMeData);
-    fs.writeFile('./README.md',readMeFile) 
-}
+function writeToFile(fileName, data) {
+    fs.writeFile('./readme-new.md', data, err => {
+        if (err) throw new Error(err);
+        console.log('Readme created! Check out readme-new.md in this directory to see it!');
+    }); 
+
+
 
 
 // TODO: Create a function to initialize app
