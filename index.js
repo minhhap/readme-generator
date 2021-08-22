@@ -15,16 +15,41 @@ const questions = [
         name: 'title'
       },
     {
-    message:'What is the project description?', 
-    type:'input', 
-    name: 'description'
+        message:'What is the project description?', 
+        type:'input', 
+        name: 'description'
         },
     {
-        message:'Which license did you use?', 
+        message:'What is the installation instruction?', 
+        type:'input', 
+        name: 'installation'
+        },
+    {
+        message:'What info about usage can you provide?', 
+        type:'input', 
+        name: 'usage'
+        },
+    {
+        message:'What are the contribution guidelines?', 
+        type:'input', 
+        name: 'contributing'
+        },
+    {
+        message:'What are the test instructions?', 
+        type:'input', 
+        name: 'test'
+        },
+    {
+        message:'Which license does this app use?', 
         type:'list', 
         name: 'license',
         choices:['MIT','Apache','BSD']
-      },
+    },
+    {
+        message:'What is your GitHub user name?', 
+        type:'input', 
+        name: 'github'
+        },
 ];
 
 // TODO: Create a function to write README file
