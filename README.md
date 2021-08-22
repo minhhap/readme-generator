@@ -1,4 +1,13 @@
-# Professional README Generator Starter Code
+# Professional README Generator
 
-[How to create a Professional README](./readme-guide.md)
-# readme-generator
+This application allows developers to use the command line and Node.js to quickly create a README.
+
+## Technologies
+* Javascript
+* Node
+
+## Demo
+https://www.youtube.com/watch?v=vBk8-cUydZo
+
+## GitHub Repo
+https://github.com/minhhap/readme-generator

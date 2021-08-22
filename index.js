@@ -37,7 +37,7 @@ const questions = [
     {
         message:'What are the test instructions?', 
         type:'input', 
-        name: 'test'
+        name: 'tests'
         },
     {
         message:'Which license does this app use?', 
@@ -49,6 +49,11 @@ const questions = [
         message:'What is your GitHub user name?', 
         type:'input', 
         name: 'github'
+        },
+    {
+        message:'What is your email address?', 
+        type:'input', 
+        name: 'email'
         },
 ];
 
