@@ -1,8 +1,8 @@
 
-# Professional Readme Creator 
+# k 
 
 ## Description
-An application that allows developers to quickly generate a README
+k
 
 
 ## Table of Content
@@ -17,19 +17,20 @@ An application that allows developers to quickly generate a README
 
 
 ## Installation
-Use npm init, npm install, npm install inquirer to download Node modules. Then run the app using the command line: node index
+k
 
 
 ## Usage
-Open-source
+k
 
+Demo: https://www.youtube.com/watch?v=vBk8-cUydZo
 
 ## Contributing
-This is an example about contribution guide
+k
 
 
 ## Tests
-n/a
+k
 
 
 ## License
@@ -37,6 +38,6 @@ MIT
 
 
 ## Questions
-Contact me at: github.com/minhhap
-or email: minhha1234@gmail.com
+Contact me at: github.com/k
+or email: k
 
